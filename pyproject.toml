@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ytweb"
+version = "0.1.0"
+description = ""
+authors = ["nakasyou <syoutarou1103@outlook.jp>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.97.0"
+yt-dlp = "^2023.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
